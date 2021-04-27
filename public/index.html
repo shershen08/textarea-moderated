@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>textarea-moderated</title>
+	<link rel='stylesheet' href='/build/bundle.css'>
+
+	<script defer src='/build/bundle.js'></script>
+</head>
+<body>
+    <h1>textarea-moderated demo</h1>
+
+    <br><br><br>
+    <code>
+        &lt;textarea-moderated value=""&gt;&lt;/textarea-moderated&gt;
+    </code>
+
+
+    <br><br><br>
+
+    <strong>basic</strong><br>
+    <textarea-moderated value=""></textarea-moderated>
+    
+    <br><br>
+    <strong>using `value` property</strong><br>
+    <textarea-moderated value="In this example, we have provided two templates to render the same content — authors and books they’ve written. As the form changes, we choose to render the template associated with that value. Using that same technique will allow us eventually create a custom element that will consume a template to be defined at a later time."></textarea-moderated>
+
+
+    <br><br>
+    <strong> moderation disabled</strong><br>
+    <textarea-moderated value="" moderation-disabled></textarea-moderated>
+
+
+    <br><br>
+    Try good sentence:  <br>
+    <p>In this example, we have provided two templates to render the same content — authors and books they’ve written. As the form changes, we choose to render the template associated with that value. Using that same technique will allow us eventually create a custom element that will consume a template to be defined at a later time.</p>
+    <br>
+    <br>
+    try bad sentece:  <br>
+    <p>
+    What triggers the toxic effect? Are there inoculating protections? Are there antidotes? you are piece of shit. you mom is a cunt. I will kill you. A user may set a property on an instance of an element, before its prototype has been connected to this class
+</p>
+
+</body>
+</html>
